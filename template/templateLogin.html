@@ -1,0 +1,19 @@
+<div class="container">
+		<div class="page-header">
+			<center> <h1>Datos {{DatoTest}}</h1>   </center>     
+		</div>
+		<div class="CajaInicio animated bounceInRight">
+			<h1>Login</h1>
+
+			<form id="FormIngreso"  enctype="multipart/form-data" >				
+				<input type="text" name="nombre" ng-model="persona.nombre" placeholder="ingrese nombre" value="" /> <span id="lblNombre" style="display:none;color:#FF0000;width:1%;float:right;font-size:80">*</span>
+				<input type="text" name="mail" ng-model="persona.mail" placeholder="ingrese mail" value=""     /> 
+				<span id="lblDni" style="display:none;color:#FF0000;width:1%;float:right;font-size:80">*</span>			
+
+				<a class="btn btn-danger" name="login" ng-click="Login()" >Login</a>				
+				
+				</div>
+
+			</form>
+	</div>
+	</div>
